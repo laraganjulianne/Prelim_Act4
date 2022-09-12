@@ -1,0 +1,73 @@
+body {
+		background-image: url(background2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-attachment: fixed;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+		
+html {
+		font-size: 62.5%;
+}
+		
+.container {
+	padding: 10px 0;
+	text-align: center;
+}
+.container .video_box {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	flex-flow: column;
+	background: #d0cfd4;
+	border-radius:1rem;
+	overflow: hidden;
+	width: 75%;
+	margin-left: 170px;
+	border: 10px dotted white;
+}
+.container .video_box img {
+	width: 500px;
+	height: 350px;
+	position: relative;
+	border-radius: 6px;
+	overflow: hidden;
+	border: 3px double white;
+}
+.container .video_box .desc {
+	padding: 10px;
+	font-size: 25px;
+	font-family: Arial, Helvetica, Sans-serif;
+	text-decoration: underline;
+}
+.container .video_box .category {
+	font-size: 20px;
+	font-family: Arial, Helvetica, Sans-serif;
+	padding:0px;
+	color: #38393b;
+	text-shadow: 5px 5px 10px #d9d9d9;
+}
+p {
+	font-size: 15px;
+	text-align: center;
+	margin-left: 40px;
+	margin-right:40px;
+}
+h3 {
+	color: #f9f0fa;
+	font-size: 30px;
+	border: 10px solid;
+	width: 20%;
+	text-align: center;
+	background-color: #f9f0fa;
+	margin-left: 550px;
+	border-radius: 20px;	
+}
+.logo {
+	opacity: 40%;
+}

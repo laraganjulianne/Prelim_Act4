@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel = "icon" href ="../images/jlogo.png" type = "image/x-icon">
+	<title>Landing Page</title>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),url(background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover; 
+            background-attachment: fixed;
+			margin: 0;
+		}
+		.container {
+			max-width:1400px;
+			margin:auto;
+			overflow:auto;
+			margin-left: 70px;
+		}
+		.gallery {
+			margin: 6px;
+			float: left;
+			width: 390px;
+			height:570px;
+			background-color: #16181a;
+			padding: 10px;
+			border-radius:5px;
+		}
+		.movie {
+			width:100%;
+			height:300px;
+			opacity: 0.89;
+			border-radius:5px;
+			border: solid 1px white;
+		}
+		.movie:hover {
+			opacity: 1.5;
+            border: solid 3px white;
+            box-shadow: 5px 5px 5px 5px #black;
+			border-radius: 5px;
+		}
+		.desc {
+			padding:5px;
+			text-align:center;
+			color: white;
+		}
+		h1 {
+			text-align:center;
+			color: #ecdaf0;
+		}
+		p {
+			padding: 40px;
+			text-align:center;
+			text-decoration:none;
+		}
+		h2 {
+			color: #f9f0fa;
+			font-size: 30px;
+			width: 18%;
+			text-align: center;
+			background-color: #f9f0fa;
+			margin-left: 550px;
+			border-radius: 10px;
+		}
+		h3 {
+			text-align: center;
+			font-weight: bold;
+			color: white;
+		}
+		.logo {
+			margin-left: 510px;
+		}
+		#last {
+			float: center;
+		}
+		.button:hover {
+			background-color:gray;
+		}
+		a {
+			text-decoration: none;
+			color: black;
+			border: 3px solid white;
+		}
+	</style>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css">
+	<!--LARAGAN,JULIANNE GAYLE-->
+	<!--03/24/22-->
+	
+	<div id="top">
+	<img src="logo.png" class="logo">
+	</div>
+	<div class="container">
+		<div class="gallery">
+			<img src="thenotebook.jpg" class="movie">
+				<h3>The Notebook</h3>
+				<div class="desc"> The Notebook is a 2004 American romantic drama 
+				film directed by Nick Cassavetes, with a screenplay by Jeremy Leven 
+				and Jan Sardi, based on the 1996 novel of the same name by Nicholas Sparks. 
+				The film stars Ryan Gosling and Rachel McAdams as a young couple who fall in 
+				love in the 1940s. Their story is read from a notebook in the present day by an 
+				elderly man (played by James Garner), telling the tale to a fellow nursing home 
+				resident (played by Gena Rowlands, the director Cassavetes' mother).</div>
+		</div>
+		<div class="gallery">
+			<img src="thevow.jpg" class="movie">
+				<h3>The Vow</h3>
+				<div class="desc">The Vow is a 2012 American romantic drama film directed by 
+				Michael Sucsy and written by Abby Kohn, Marc Silverstein, and Jason Katims, 
+				inspired by the true story of Kim and Krickitt Carpenter.[3] The film stars 
+				Rachel McAdams and Channing Tatum as Paige and Leo Collins, with Sam Neill, 
+				Scott Speedman, Jessica Lange and Jessica McNamee in supporting roles. As of 
+				2013, The Vow was the eighth highest-grossing romantic drama film produced since 1980.</div>
+		</div>
+		<div class="gallery">
+			<img src="avatar.jpg" class="movie">
+				<h3>Avatar</h3>
+				<div class="desc">Avatar is an American science fiction film written and directed by James Cameron, 
+			starring Sam Worthington, Zoë Saldaña, Stephen Lang, Michelle Rodriguez, and Sigourney 
+			Weaver. It was made by Lightstorm Entertainment and released by 20th Century Fox on December 18, 2009. 
+			The film is set in the year 2154 on Pandora, a fictional Earth-like moon in a distant planetary system. 
+			Na'vi — the sapient and sentient race of humanoids indigenous to the moon — resist the colonists' expansion.</div>
+		</div>
+		<div class="gallery">
+			<img src="warmbodies.jpg" class="movie">
+			<h3>Warm Bodies</h3>
+				<div class="desc">Warm Bodies is a 2013 American paranormal romantic zombie comedy film written and directed by 
+				Jonathan Levine and based on Isaac Marion's 2010 novel of the same name, which in turn is inspired by Shakespeare's 
+				Romeo and Juliet. The film stars Nicholas Hoult, Teresa Palmer, Rob Corddry, Dave Franco, Lio Tipton, Cory Hardrict, and John Malkovich.
+				The film focuses on the development of the relationship between Julie, a young woman, and R, a zombie.</div>
+		</div>
+		<div class="gallery">
+			<img src="homealone.jpg" class="movie">
+			<h3>Home Alone 2: Lost in New York</h3>
+				<div class="desc">Home Alone 2: Lost in New York is a 1992 American Christmas comedy film directed by Chris Columbus 
+				and written and produced by John Hughes. The sequel to the 1990 film Home Alone and the second film in the Home Alone franchise, 
+				the film stars Macaulay Culkin, Joe Pesci, Daniel Stern, John Heard, Tim Curry, Brenda Fricker, and Catherine O'Hara. It follows 
+				Kevin McCallister (Culkin), as he is separated from his family on their holiday vacation in Florida, this time in New York City.</div>
+		</div>
+		<div class="gallery">
+			<img src="awalk.jpg" class="movie">
+			<h3>A Walk to Remember</h3>
+				<div class="desc">A Walk to Remember is a 2002 American coming-of-age romantic drama film directed by Adam Shankman and written by 
+				Karen Janszen, based on Nicholas Sparks' 1999 novel of the same name. The film stars Shane West, Mandy Moore, Peter Coyote and Daryl 
+				Hannah, and was produced by Denise Di Novi and Hunt Lowry for Warner Bros. Pictures. The novel's 1950s setting was changed to the 1990s 
+				to early 2000s for the film, as the producers were concerned it might not appeal to teenage audiences.</div>
+		</div>
+		<div class="gallery">
+			<img src="purgeanarchy.jpg" class="movie">
+			<h3>Purge Anarchy</h3>
+				<div class="desc">The New Founders of America invite you to celebrate your annual right to Purge. 
+			The Purge: Anarchy takes it to the streets for the country’s yearly 12 hours of anarchy, 
+			when all crime is legal. This new story follows an unlikely group of five strangers over 
+			the course of the night. As they fight to survive a night fraught with impossible decisions, 
+			these strangers will find out just how far they will go to protect themselves and, ultimately, 
+			each other. The film grossed over $111 million and received mixed reviews from critics</div>
+		</div>
+		<div class="gallery">
+			<img src="thegrinch.jpg" class="movie">
+			<h3>The Grinch</h3>
+				<div class="desc">The Grinch and his loyal dog, Max, live a solitary existence inside a cave on Mount Crumpet. 
+			His main source of aggravation comes during Christmastime when his neighbours in Whoville 
+			celebrate the holidays with a bang. When the Whos decide to make Christmas bigger and brighter, 
+			the disgruntled Grinch realises there is one way to gain peace and quiet. With help from Max, 
+			the green grump hatches a scheme to pose as Santa Claus, steal Christmas and 
+			silence the Whos' holiday cheer once and for all.</div>
+		</div>
+		<div class="gallery">
+			<img src="zombieland.jpg" class="movie">
+			<h3>Zombieland</h3>
+				<div class="desc">Nerdy college student Columbus (Jesse Eisenberg) has survived the plague that has 
+			turned mankind into flesh-devouring zombies because he’s scared of just about everything. 
+			Gun-toting, Twinkie-loving Tallahassee (Woody Harrelson) has no fears. Together, 
+			they are about to stare down their most horrifying challenge yet: each other’s company. 
+			Emma Stone and Abigail Breslin co-star in this double-hitting, head-smashing comedy.
+			The film follows a geeky college student (Jesse Eisenberg).</div>
+		</div>
+		<div class="gallery">
+			<img src="matilda.jpg" class="movie" id="last">
+			<h3>Matilda</h3>
+				<div class="desc">Matilda is a 1996 surreal family movie based on the book by Roald Dahl. 
+			It includes a lot of cartoonish violence, nearly all of it perpetrated by a 
+			bullying school principal. The film centers on the titular child prodigy, Matilda Wormwood, 
+			who develops psychokinetic abilities and uses them to deal with her disreputable family; 
+			and Miss Trunchbull, the ruthless, oppressive, and tyrannical principal of Crunchem Hall Elementary School.</div>
+		</div>
+	</div>
+	<br><br>
+	<h2><a href="#top" class="button">Go back to Top</a></h2>
+</body>
+</html>
